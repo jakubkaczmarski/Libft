@@ -6,13 +6,12 @@
 /*   By: ankasamanyan <ankasamanyan@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/05 01:23:23 by ankasamanya       #+#    #+#             */
-/*   Updated: 2021/12/14 01:29:37 by ankasamanya      ###   ########.fr       */
+/*   Updated: 2021/12/17 17:41:19 by ankasamanya      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef LIBFT_H
-#define LIBFT_H
+#ifndef   LIBFT_H
+# define   LIBFT_H
 # include <unistd.h>
 # include <stdlib.h>
 
@@ -50,7 +49,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
-char	*ft_strtrim(const char *str,const char *set);
+char	*ft_strtrim(const char *str, const char *set);
 char	**ft_split(char const *s, char c);
 
 #endif
