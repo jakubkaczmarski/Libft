@@ -6,7 +6,7 @@
 /*   By: ankasamanyan <ankasamanyan@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 21:31:38 by ankasamanya       #+#    #+#             */
-/*   Updated: 2021/11/28 23:37:05 by ankasamanya      ###   ########.fr       */
+/*   Updated: 2021/12/18 01:50:13 by ankasamanya      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	int		i;
+	size_t	i;
 	char	*ptr;
 
 	i = 0;
